@@ -1,0 +1,8 @@
+.banner {
+ /* width: 800px;*/
+  background-image: images/background.jpg;
+    background-size: cover;
+    background-position: left;
+    padding: 200px 0;
+    color: white;
+  }
