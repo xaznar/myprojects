@@ -1,10 +1,9 @@
-require "wagon_start"
+# frozen_string_literal: true
 
-describe "#wagon_start" do
-
+require 'wagon_start'
+describe '#wagon_start' do
   it "should return the exact message 'That's how it starts'" do
     response = wagon_start
     expect(response).to eq("That's how it starts")
   end
-
 end
